@@ -1,0 +1,6 @@
+*.log
+*.list
+*.out
+.state
+kqout
+feats
