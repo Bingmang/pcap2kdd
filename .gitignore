@@ -1,6 +1,7 @@
 *.log
 *.list
 *.out
+*.pcap
 .state
 kqout
 feats
