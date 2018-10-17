@@ -2,6 +2,7 @@
 *.list
 *.out
 *.pcap
+*.feat
 .state
 kqout
 feats

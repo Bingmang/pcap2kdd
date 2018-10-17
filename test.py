@@ -1,16 +1,13 @@
 DP = './Data/dulplicated.feat'
-NM = './feats/104.pcap.feat'
+NM = '206.feat'
 fd = open(NM, 'r')
-
-
 
 line_count = 0
 error_count = 0
+oh = {'icmp': 0, 'udp': 0, 'tcp': 0}
 for line in fd.readlines():
     line_count += 1
-    list = line.split()
-    if float(list[30]) > 0.8:
-        error_count += 1
-        print line,
-print(line_count)
-print(error_count)
+    _list = line.split()
+    oh[_list[7]] += 1
+
+print(oh)
