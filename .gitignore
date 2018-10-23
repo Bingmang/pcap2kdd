@@ -3,6 +3,8 @@
 *.out
 *.pcap
 *.feat
+*.tmp
 .state
 kqout
-feats
+Data/
+Kdd/
